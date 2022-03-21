@@ -21,7 +21,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Maztu                          # the main title
+title: Joseph Tulowiecki                      # the main title
 
 tagline: A place to document useful stuff so I only have to figure it out once   # it will display as the sub-title
 
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/cotes2020/chirpy-images/main/commons/avatar.jpg 
+avatar: 
 
 # boolean type, the global switch for ToC in posts.
 toc: true
