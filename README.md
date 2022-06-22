@@ -2,6 +2,25 @@
 ```
 bundle exec jekyll serve --watch --drafts
 ```
+### To update site
+```
+git push origin main
+```
+### To create a draft just create a markdown file in the _drafts folder
+
+### To publish a draft, just move it from _drafts to _posts and preface it with a date
+```YYYY-MM-DD-title-of-post.md```
+
+### Then add a header to the post.
+```
+---
+title: Setup Android Studio for Pentesting
+layout: post
+date: '2022-03-20 13:25:00 -0400'
+categories: Setup Android
+tags: android android_studio frida objection
+---
+```
 
 # Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
