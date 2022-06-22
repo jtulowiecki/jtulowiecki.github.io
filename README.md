@@ -2,16 +2,18 @@
 ```
 bundle exec jekyll serve --watch --drafts
 ```
-### To update site
+### Update Site
 ```
 git push origin main
 ```
-### To create a draft just create a markdown file in the _drafts folder
+### Create Draft
+- Create a markdown file in the _drafts folder
 
-### To publish a draft, just move it from _drafts to _posts and preface it with a date
+### Publish a Draft
+- Move it from _drafts to _posts and preface it with a date
 ```YYYY-MM-DD-title-of-post.md```
 
-### Then add a header to the post.
+- Add a header to the post.
 ```
 ---
 title: Setup Android Studio for Pentesting
